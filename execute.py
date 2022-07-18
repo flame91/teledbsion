@@ -5,9 +5,9 @@ delay = 0.01
 
 def get_db():
     time.sleep(delay)
-    conn = pymysql.connect(host='175.113.135.86',
+    conn = pymysql.connect(host='',
                             user='fallingup',
-                            password='dlfdmscnlal!#%',
+                            password='',
                             db='FAUP_TEST',
                             port=3306,
                             charset='utf8mb4',
